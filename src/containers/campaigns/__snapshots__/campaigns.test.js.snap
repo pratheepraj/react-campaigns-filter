@@ -1,0 +1,581 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Campaigns renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Campaigns />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <header
+          className="campaigns__header"
+>
+          <DateRange
+                    endDate={1546128000000}
+                    onChange={[Function]}
+                    onReset={[Function]}
+                    startDate={1468281600000}
+          />
+          <searchBox
+                    onChange={[Function]}
+          />
+</header>,
+        <main>
+          <CampaignList
+                    campaigns={
+                              Array [
+                                        Object {
+                                          "Budget": 837733,
+                                          "endDate": 1532908800000,
+                                          "id": 1000,
+                                          "name": "Ant-Man",
+                                          "startDate": 1499817600000,
+                                        },
+                                        Object {
+                                          "Budget": 608715,
+                                          "endDate": 1532217600000,
+                                          "id": 1001,
+                                          "name": "Black Panter",
+                                          "startDate": 1531353600000,
+                                        },
+                                        Object {
+                                          "Budget": 239507,
+                                          "endDate": 1537574400000,
+                                          "id": 1003,
+                                          "name": "Gotham City",
+                                          "startDate": 1526774400000,
+                                        },
+                                        Object {
+                                          "Budget": 1349838,
+                                          "endDate": 1546128000000,
+                                          "id": 1004,
+                                          "name": "R2-D2",
+                                          "startDate": 1508025600000,
+                                        },
+                                        Object {
+                                          "Budget": 884850,
+                                          "endDate": 1532217600000,
+                                          "id": 1005,
+                                          "name": "Star City",
+                                          "startDate": 1531353600000,
+                                        },
+                                        Object {
+                                          "Budget": 85313,
+                                          "endDate": 1500940800000,
+                                          "id": 1006,
+                                          "name": "Green Arrow",
+                                          "startDate": 1500768000000,
+                                        },
+                                        Object {
+                                          "Budget": 109448,
+                                          "endDate": 1532217600000,
+                                          "id": 1007,
+                                          "name": "Stranger Things",
+                                          "startDate": 1531353600000,
+                                        },
+                                        Object {
+                                          "Budget": 255442,
+                                          "endDate": 1469145600000,
+                                          "id": 1008,
+                                          "name": "Klingons",
+                                          "startDate": 1468281600000,
+                                        },
+                                      ]
+                    }
+          />
+</main>,
+      ],
+      "className": "campaigns",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <DateRange
+              endDate={1546128000000}
+              onChange={[Function]}
+              onReset={[Function]}
+              startDate={1468281600000}
+/>,
+            <searchBox
+              onChange={[Function]}
+/>,
+          ],
+          "className": "campaigns__header",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "endDate": 1546128000000,
+              "onChange": [Function],
+              "onReset": [Function],
+              "startDate": 1468281600000,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "onChange": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "header",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <CampaignList
+            campaigns={
+                        Array [
+                                    Object {
+                                      "Budget": 837733,
+                                      "endDate": 1532908800000,
+                                      "id": 1000,
+                                      "name": "Ant-Man",
+                                      "startDate": 1499817600000,
+                                    },
+                                    Object {
+                                      "Budget": 608715,
+                                      "endDate": 1532217600000,
+                                      "id": 1001,
+                                      "name": "Black Panter",
+                                      "startDate": 1531353600000,
+                                    },
+                                    Object {
+                                      "Budget": 239507,
+                                      "endDate": 1537574400000,
+                                      "id": 1003,
+                                      "name": "Gotham City",
+                                      "startDate": 1526774400000,
+                                    },
+                                    Object {
+                                      "Budget": 1349838,
+                                      "endDate": 1546128000000,
+                                      "id": 1004,
+                                      "name": "R2-D2",
+                                      "startDate": 1508025600000,
+                                    },
+                                    Object {
+                                      "Budget": 884850,
+                                      "endDate": 1532217600000,
+                                      "id": 1005,
+                                      "name": "Star City",
+                                      "startDate": 1531353600000,
+                                    },
+                                    Object {
+                                      "Budget": 85313,
+                                      "endDate": 1500940800000,
+                                      "id": 1006,
+                                      "name": "Green Arrow",
+                                      "startDate": 1500768000000,
+                                    },
+                                    Object {
+                                      "Budget": 109448,
+                                      "endDate": 1532217600000,
+                                      "id": 1007,
+                                      "name": "Stranger Things",
+                                      "startDate": 1531353600000,
+                                    },
+                                    Object {
+                                      "Budget": 255442,
+                                      "endDate": 1469145600000,
+                                      "id": 1008,
+                                      "name": "Klingons",
+                                      "startDate": 1468281600000,
+                                    },
+                                  ]
+            }
+/>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "campaigns": Array [
+              Object {
+                "Budget": 837733,
+                "endDate": 1532908800000,
+                "id": 1000,
+                "name": "Ant-Man",
+                "startDate": 1499817600000,
+              },
+              Object {
+                "Budget": 608715,
+                "endDate": 1532217600000,
+                "id": 1001,
+                "name": "Black Panter",
+                "startDate": 1531353600000,
+              },
+              Object {
+                "Budget": 239507,
+                "endDate": 1537574400000,
+                "id": 1003,
+                "name": "Gotham City",
+                "startDate": 1526774400000,
+              },
+              Object {
+                "Budget": 1349838,
+                "endDate": 1546128000000,
+                "id": 1004,
+                "name": "R2-D2",
+                "startDate": 1508025600000,
+              },
+              Object {
+                "Budget": 884850,
+                "endDate": 1532217600000,
+                "id": 1005,
+                "name": "Star City",
+                "startDate": 1531353600000,
+              },
+              Object {
+                "Budget": 85313,
+                "endDate": 1500940800000,
+                "id": 1006,
+                "name": "Green Arrow",
+                "startDate": 1500768000000,
+              },
+              Object {
+                "Budget": 109448,
+                "endDate": 1532217600000,
+                "id": 1007,
+                "name": "Stranger Things",
+                "startDate": 1531353600000,
+              },
+              Object {
+                "Budget": 255442,
+                "endDate": 1469145600000,
+                "id": 1008,
+                "name": "Klingons",
+                "startDate": 1468281600000,
+              },
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "main",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <header
+            className="campaigns__header"
+>
+            <DateRange
+                        endDate={1546128000000}
+                        onChange={[Function]}
+                        onReset={[Function]}
+                        startDate={1468281600000}
+            />
+            <searchBox
+                        onChange={[Function]}
+            />
+</header>,
+          <main>
+            <CampaignList
+                        campaigns={
+                                    Array [
+                                                Object {
+                                                  "Budget": 837733,
+                                                  "endDate": 1532908800000,
+                                                  "id": 1000,
+                                                  "name": "Ant-Man",
+                                                  "startDate": 1499817600000,
+                                                },
+                                                Object {
+                                                  "Budget": 608715,
+                                                  "endDate": 1532217600000,
+                                                  "id": 1001,
+                                                  "name": "Black Panter",
+                                                  "startDate": 1531353600000,
+                                                },
+                                                Object {
+                                                  "Budget": 239507,
+                                                  "endDate": 1537574400000,
+                                                  "id": 1003,
+                                                  "name": "Gotham City",
+                                                  "startDate": 1526774400000,
+                                                },
+                                                Object {
+                                                  "Budget": 1349838,
+                                                  "endDate": 1546128000000,
+                                                  "id": 1004,
+                                                  "name": "R2-D2",
+                                                  "startDate": 1508025600000,
+                                                },
+                                                Object {
+                                                  "Budget": 884850,
+                                                  "endDate": 1532217600000,
+                                                  "id": 1005,
+                                                  "name": "Star City",
+                                                  "startDate": 1531353600000,
+                                                },
+                                                Object {
+                                                  "Budget": 85313,
+                                                  "endDate": 1500940800000,
+                                                  "id": 1006,
+                                                  "name": "Green Arrow",
+                                                  "startDate": 1500768000000,
+                                                },
+                                                Object {
+                                                  "Budget": 109448,
+                                                  "endDate": 1532217600000,
+                                                  "id": 1007,
+                                                  "name": "Stranger Things",
+                                                  "startDate": 1531353600000,
+                                                },
+                                                Object {
+                                                  "Budget": 255442,
+                                                  "endDate": 1469145600000,
+                                                  "id": 1008,
+                                                  "name": "Klingons",
+                                                  "startDate": 1468281600000,
+                                                },
+                                              ]
+                        }
+            />
+</main>,
+        ],
+        "className": "campaigns",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <DateRange
+                endDate={1546128000000}
+                onChange={[Function]}
+                onReset={[Function]}
+                startDate={1468281600000}
+/>,
+              <searchBox
+                onChange={[Function]}
+/>,
+            ],
+            "className": "campaigns__header",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "endDate": 1546128000000,
+                "onChange": [Function],
+                "onReset": [Function],
+                "startDate": 1468281600000,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "onChange": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "header",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <CampaignList
+              campaigns={
+                            Array [
+                                          Object {
+                                            "Budget": 837733,
+                                            "endDate": 1532908800000,
+                                            "id": 1000,
+                                            "name": "Ant-Man",
+                                            "startDate": 1499817600000,
+                                          },
+                                          Object {
+                                            "Budget": 608715,
+                                            "endDate": 1532217600000,
+                                            "id": 1001,
+                                            "name": "Black Panter",
+                                            "startDate": 1531353600000,
+                                          },
+                                          Object {
+                                            "Budget": 239507,
+                                            "endDate": 1537574400000,
+                                            "id": 1003,
+                                            "name": "Gotham City",
+                                            "startDate": 1526774400000,
+                                          },
+                                          Object {
+                                            "Budget": 1349838,
+                                            "endDate": 1546128000000,
+                                            "id": 1004,
+                                            "name": "R2-D2",
+                                            "startDate": 1508025600000,
+                                          },
+                                          Object {
+                                            "Budget": 884850,
+                                            "endDate": 1532217600000,
+                                            "id": 1005,
+                                            "name": "Star City",
+                                            "startDate": 1531353600000,
+                                          },
+                                          Object {
+                                            "Budget": 85313,
+                                            "endDate": 1500940800000,
+                                            "id": 1006,
+                                            "name": "Green Arrow",
+                                            "startDate": 1500768000000,
+                                          },
+                                          Object {
+                                            "Budget": 109448,
+                                            "endDate": 1532217600000,
+                                            "id": 1007,
+                                            "name": "Stranger Things",
+                                            "startDate": 1531353600000,
+                                          },
+                                          Object {
+                                            "Budget": 255442,
+                                            "endDate": 1469145600000,
+                                            "id": 1008,
+                                            "name": "Klingons",
+                                            "startDate": 1468281600000,
+                                          },
+                                        ]
+              }
+/>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "campaigns": Array [
+                Object {
+                  "Budget": 837733,
+                  "endDate": 1532908800000,
+                  "id": 1000,
+                  "name": "Ant-Man",
+                  "startDate": 1499817600000,
+                },
+                Object {
+                  "Budget": 608715,
+                  "endDate": 1532217600000,
+                  "id": 1001,
+                  "name": "Black Panter",
+                  "startDate": 1531353600000,
+                },
+                Object {
+                  "Budget": 239507,
+                  "endDate": 1537574400000,
+                  "id": 1003,
+                  "name": "Gotham City",
+                  "startDate": 1526774400000,
+                },
+                Object {
+                  "Budget": 1349838,
+                  "endDate": 1546128000000,
+                  "id": 1004,
+                  "name": "R2-D2",
+                  "startDate": 1508025600000,
+                },
+                Object {
+                  "Budget": 884850,
+                  "endDate": 1532217600000,
+                  "id": 1005,
+                  "name": "Star City",
+                  "startDate": 1531353600000,
+                },
+                Object {
+                  "Budget": 85313,
+                  "endDate": 1500940800000,
+                  "id": 1006,
+                  "name": "Green Arrow",
+                  "startDate": 1500768000000,
+                },
+                Object {
+                  "Budget": 109448,
+                  "endDate": 1532217600000,
+                  "id": 1007,
+                  "name": "Stranger Things",
+                  "startDate": 1531353600000,
+                },
+                Object {
+                  "Budget": 255442,
+                  "endDate": 1469145600000,
+                  "id": 1008,
+                  "name": "Klingons",
+                  "startDate": 1468281600000,
+                },
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "main",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

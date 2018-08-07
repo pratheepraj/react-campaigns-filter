@@ -1,0 +1,12 @@
+.status__icon {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  display: inline-block;
+  background-color: red;
+}
+
+.status__icon--active {
+  background-color: green;
+}

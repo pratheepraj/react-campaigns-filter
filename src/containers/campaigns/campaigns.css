@@ -1,0 +1,13 @@
+.campaigns {
+  width: 90%;
+  max-width: 800px;
+  padding: 1rem;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.campaigns__header {
+  display: flex;
+  margin-bottom: 1rem;
+}

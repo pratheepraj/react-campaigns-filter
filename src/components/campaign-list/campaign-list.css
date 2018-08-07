@@ -1,0 +1,17 @@
+.campaign-list {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.campaign-list td,
+.campaign-list th {
+  padding: 0.6rem 1rem;
+  border: 1px solid #ddd;
+}
+
+.campaign-list th {
+  color: white;
+  text-align: left;
+  font-weight: normal;
+  background-color: #4c4cf5;
+}

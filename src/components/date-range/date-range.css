@@ -1,0 +1,27 @@
+.date-range {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.date-range__content {
+  display: flex;
+  align-items: center;
+}
+
+.date-range input {
+  margin-left: 0.5rem;
+  font-size: 0.85rem;
+  width: 7rem;
+}
+
+.date-range input:first-child {
+  margin-right: 1rem;
+}
+
+.date-range__error {
+  font-size: 0.7rem;
+  padding-top: 0.5rem;
+  font-style: italic;
+  color: red;
+}
